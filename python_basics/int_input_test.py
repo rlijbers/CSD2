@@ -1,0 +1,5 @@
+print("x + y:")
+x = input ("x: ")
+y = input ("y: ")
+def calc(x, y)
+calc(x + y)
