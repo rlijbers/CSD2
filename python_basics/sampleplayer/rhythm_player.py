@@ -21,7 +21,7 @@ def bpmCalc(BPM, note):
 
 #play function
 def playSample(sample):
-    wave_obj = sa.WaveObject.from_wave_file(sample)
+    wave_obj = sa.WaveObject.from_wave_file(sampleSel)
     play_obj = wave_obj.play()
 
 #play loop
@@ -35,4 +35,4 @@ for loopStat in range(0, int(loopAmt)):
 #print(bpmCalc(BPM, float(note)))
 #print(note)
 #print(range(0, (int(loopAmt)+1))
-#print(loopAmt, stepAmt, noteArr, BPM)
+print(loopAmt, stepAmt, noteArr, BPM)
